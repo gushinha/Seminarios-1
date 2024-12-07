@@ -1,0 +1,40 @@
+body{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+}
+/* login */
+body .sgc h1{
+    margin: 0;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(53, 53, 53);
+}
+body main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body main form{
+    margin-top: 15px;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+body main form label{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+body main form input[type="text"],
+input[type="password"]{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000 ;
+    outline: none;
+}
+body main form input[type="text"]:focus,
+body main form input[type="password"]:focus {
+    border-bottom: 2px solid #007BFF; 
+    outline: none;                   
+  }

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/scripts.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiências</title>
@@ -10,40 +12,23 @@
         <div class="titulo">
             <h1>Experiências</h1>
         </div>
-        <button onclick="window.location.href = 'menu.html'">Voltar</button>
-        <button onclick="window.location.href = 'login.html'">Sair</button>
+        <button onclick="abrirmenu()">Voltar</button>
+        <button onclick="logoff()">Sair</button>
     </header>
-    </aside>
     <main>
         <form action="experiencias" method="">
             <label for="entidade">Entidade:</label>
             <input type="text" name="empresa" id="empresa"><br>
             <label for="cargo">Cargo:</label>
             <input type="text" name="cargo" id="cargo"><br>
-
-            input
             <label for="periodo">Período:</label><br>
             <label for="inicio">Inicio</label>
             <input type="month" name="inicio" id="mes">
             <label for="fim">Fim</label>
-            <input type="month" name="fim" id="mes">
-
-
+            <input type="month" name="fim" id="mes"><br>
+            <input type="reset" value="Limpar">
+            <input type="submit">
         </form>
-        <div class="corpo"></div>
-            <h1>Analista de Suporte Técnico</h1>
-            <h2>One Select System</h2>
-            <h3>Remoto</h3>
-            <h4>set/2024 - momento</h4>
-            <p>Suporte técnico da One Select System, empresa que armazena e coleta logs de CGNAT</p>
-        </div>
-        <div class="corpo">
-            <h1>Técnico em Informática Integrado ao Ensino Médio</h1>
-            <h2>Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas - IFSULDEMINAS</h2>
-            <h3>Campus Poços de Caldas</h3>
-            <h4>fev/2020 - dez/2023</h4>
-            <p>Selecionado em 2º lugar no processo seletivo, ingressei em 2020 e me tornei técnico em informática em 2023. Durante o curso foram realizados diversos eventos dentro e fora da área de tecnologia, além de ter realizado 4 projetos de extensão no decorrer do curso.</p>
-        </div>
     </main>
 </body>
 </html>

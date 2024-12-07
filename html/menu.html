@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <script src="../js/scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo</title>
@@ -13,11 +15,11 @@
     </header>
     <main>
         <div class="menu">
-            <a href="dados_pesoais.html">Dados pessoais</a>
-            <a href="formacao.html">Formação</a>
-            <a href="experiencias.html">Experiências</a>
+            <button onclick="abrirdadospessoais()">Dados Pessoais</button>
+            <button onclick="abrirformacao()">Formação</button>
+            <button onclick="abrirexperiencias()">Experiências</button>
         </div>
-        <button onclick="window.location.href = 'login.html'">Sair</button>
+        <button onclick="logoff()">Sair</button>
     </main>
 </body>
 </html>

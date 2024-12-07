@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="../js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Dados Pessoais</h1>
+        </div>
+        <button onclick="abrirmenu()">Voltar</button>
+        <button onclick="logoff()">Sair</button>
+    </header>
+    <main>
+        <form action="get">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome"><br>
+            <label for="Endereço:">Endereço:</label>
+            <input type="text"><br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel"><br>
+            <label for="email">Email:</label>
+            <input type="email"><br>
+            <label for="nascimento">Nascimento:</label>
+            <input type="date"><br>
+            <input type="reset" value="Limpar">
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
